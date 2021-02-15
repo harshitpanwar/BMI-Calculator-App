@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/bg"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:hint="Height( in cm)"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/textView1"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg"
+        android:layout_marginTop="30dp"
+        android:hint="Weight( in kg)"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="118dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="#8077CA17"
+        android:text="Calculate" />
+
+
+
+    <TextView
+        android:id="@+id/bmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg"
+        android:hint="BMI"
+        android:padding="10dp"
+        android:textSize="25sp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:textSize="25sp"
+    android:layout_gravity="center"
+    android:id="@+id/youneedtoloose"
+
+    />
+
+ <Button
+    android:id="@+id/clear"
+    android:layout_width="80dp"
+    android:layout_height="40dp"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center"
+    android:background="#8077CA17"
+    android:text="clear all" />
+
+</LinearLayout>
